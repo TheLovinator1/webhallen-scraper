@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "webhallen-scraper"
+version = "0.1.0"
+description = "Download the JSON from https://www.webhallen.com/api/product/ and add it to MongoDB."
+authors = ["Joakim Hellsén <tlovinator@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.23.0"
+pymongo = "^4.3.2"
+rich = "^12.6.0"
+python-dotenv = "^0.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

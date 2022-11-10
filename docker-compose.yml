@@ -1,0 +1,20 @@
+services:
+  openpricecomparison_mongodb:
+    container_name: openpricecomparison_mongodb
+    image: mongo:latest
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: openpricecomparison
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 27017:27017
+    volumes:
+      - openpricecomparison_data:/data/db
+      - openpricecomparison_config:/data/configdb
+
+volumes:
+  openpricecomparison_data:
+    name: openpricecomparison_data
+  openpricecomparison_config:
+    name: openpricecomparison_config
