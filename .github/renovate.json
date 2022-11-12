@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "schedule": [
+    "after 8am every weekday",
+    "before 2pm every weekday"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true,
+      "ignoreTests": true
+    }
+  ],
+  "dependencyDashboard": false,
+  "enabledManagers": [
+    "dockerfile",
+    "docker-compose",
+    "poetry",
+    "github-actions"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": true,
+    "ignoreTests": true
+  },
+  "timezone": "Europe/Stockholm"
+}
