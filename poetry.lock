@@ -104,14 +104,14 @@ socks = ["socksio (>=1.0.0,<2.0.0)"]
 
 [[package]]
 name = "httpx"
-version = "0.23.1"
+version = "0.23.3"
 description = "The next generation HTTP client."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "httpx-0.23.1-py3-none-any.whl", hash = "sha256:0b9b1f0ee18b9978d637b0776bfd7f54e2ca278e063e3586d8f01cda89e042a8"},
-    {file = "httpx-0.23.1.tar.gz", hash = "sha256:202ae15319be24efe9a8bd4ed4360e68fde7b38bcc2ce87088d416f026667d19"},
+    {file = "httpx-0.23.3-py3-none-any.whl", hash = "sha256:a211fcce9b1254ea24f0cd6af9869b3d29aba40154e947d2a07bb499b3e310d6"},
+    {file = "httpx-0.23.3.tar.gz", hash = "sha256:9818458eb565bb54898ccb9b8b251a28785dd4a55afbc23d0eb410754fe7d0f9"},
 ]
 
 [package.dependencies]
@@ -283,14 +283,14 @@ idna2008 = ["idna"]
 
 [[package]]
 name = "rich"
-version = "13.0.0"
+version = "13.0.1"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "rich-13.0.0-py3-none-any.whl", hash = "sha256:12b1d77ee7edf251b741531323f0d990f5f570a4e7c054d0bfb59fb7981ad977"},
-    {file = "rich-13.0.0.tar.gz", hash = "sha256:3aa9eba7219b8c575c6494446a59f702552efe1aa261e7eeb95548fa586e1950"},
+    {file = "rich-13.0.1-py3-none-any.whl", hash = "sha256:41fe1d05f433b0f4724cda8345219213d2bfa472ef56b2f64f415b5b94d51b04"},
+    {file = "rich-13.0.1.tar.gz", hash = "sha256:25f83363f636995627a99f6e4abc52ed0970ebbd544960cc63cbb43aaac3d6f0"},
 ]
 
 [package.dependencies]
